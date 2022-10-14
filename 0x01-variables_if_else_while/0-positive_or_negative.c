@@ -1,10 +1,11 @@
 #include<stdlib.h>
 #include<time.h>
 #include<stdio.h>
+
 /**
- * main - Prints if number is positive, zero or negative
+ * main - Prints random number, states whether is positive, zero or negative
  *
- * Return: Always (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -17,13 +18,13 @@ int main(void)
 	{
 		printf("%d is positive\n", n);
 	}
-	else if (n == 0)
+	else if (n < 0)
 	{
-		perintf("%d is zero\n", n);
+		perintf("%d is negative\n", n);
 	}
 	else
 	{
-		printf("d is negative\n", n);
+		printf("d is zero\n", n);
 	}
 	return (0);
 }
