@@ -1,11 +1,10 @@
 #include "main.h
 
 /**
-*print_times_table(int n);- Prints the n time table
+*times_table(int n);- Prints the n time table
 *@n: number times (0 < n <= 15)
-*Return: no return
 */
-void print_times_table(int)
+void times_table(int)
 {
 	int a, b, op;
 
