@@ -1,29 +1,23 @@
 #include "main.h"
 
-
-
 /**
- *print_most_numbers - prints numbers between 0 to 9
- *(neither 2 nor 4).
- *Return: no return.
+ * print_most_numbers - entry point
+ *
+ * Description: Prints the numbers with _putchar
+ *
+ * Return: void
  */
 
 void print_most_numbers(void)
-
 {
-	int ch;
+	int number;
 
-	for (ch = 48; ch < 58; ch++)
-
+	for (number = '0'; number <= '9'; number++)
 	{
-		if (ch != 50 && ch != 52)
-
-			_putchar(ch);
-
+		if (number == '2' || number == '4')
+			;
+		else
+			_putchar(number);
 	}
-
-
-
 	_putchar('\n');
-
 }

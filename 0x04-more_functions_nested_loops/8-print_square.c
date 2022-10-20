@@ -1,32 +1,30 @@
 #include "main.h"
 
-
-
 /**
- *print_square - prints hashes squares.
- *@size: size of the square.
- *Return: no return.
+ * print_square - entry point
+ *
+ * Description: Prints square
+ *@size: size of square
+ * Return: void
  */
 
 void print_square(int size)
-
 {
-	int i, j;
+	int row, column;
 
-	for (i = 0; i < size; i++)
-
+	if (size <= 0)
 	{
-		for (j = 0; j < size; j++)
-
-		{
-			_putchar(35);
-		}
-
-		if (i != size - 1)
-
-			_putchar('\n');
+		_putchar('\n');
 	}
-
-	_putchar('\n');
-
+	else
+	{
+		for (row = 1; row <= size; row++)
+		{
+			for (column = 1; column <= size; column++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
+		}
+	}
 }
