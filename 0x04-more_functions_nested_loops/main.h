@@ -1,6 +1,6 @@
 #ifndef MAIN_H
 
-#define Main_H
+#define MAIN_H
 
 /**
  * File -main.h
@@ -8,6 +8,7 @@
  * Descrp: This header contains the prototypes for all functions
  * 	used forthe project 0x04-more_functions_nested_loops.
  */
+int _putchar(char c);
 
 int _isupper(int c);
 

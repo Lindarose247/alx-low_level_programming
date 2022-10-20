@@ -18,7 +18,7 @@ void print_most_numbers(void)
 	{
 		if (ch != 50 && ch != 52)
 
-			_putchar(ch);
+			_putchar(ch)
 	}
 
 
