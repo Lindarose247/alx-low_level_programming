@@ -1,5 +1,5 @@
 #include"main.h"
-
+#include <stdio.h>
 
 
 /**
@@ -8,7 +8,6 @@
  * @a: string parameter input
  * Return: Always 0
  */
-
 void print_array(int *a, int n)
 
 {
@@ -21,14 +20,14 @@ void print_array(int *a, int n)
 
 		if (i != (n - 1))
 
-			_putchar("%d, ", a[i]);
+			printf("%d, ", a[i]);
 
 		else
 
-			_putchar("%d", a[i]);
+			printf("%d", a[i]);
 
 	}
 
-	_putchar("\n");
+	printf("\n");
 
 }
