@@ -13,6 +13,7 @@ char *_strcpy(char *dest, char *src)
 {
 
 	int a;
+	int b;
 
 	b = 0;
 
