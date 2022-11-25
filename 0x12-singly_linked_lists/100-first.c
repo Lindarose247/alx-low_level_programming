@@ -1,7 +1,8 @@
-#include "lists.h"
+#include <stdio.h>
+
 
 /**
-* first - Print before main prints
+* premain - Print before main prints
 * Return: void
 */
 
