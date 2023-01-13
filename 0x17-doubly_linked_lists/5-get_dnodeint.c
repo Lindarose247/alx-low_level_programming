@@ -1,9 +1,12 @@
 #include "lists.h"
 
 /**
- * get_dnodeint_at_index - Nth node 
+ * get_dnodeint_at_index - Nth node
+ *
  * @head: pointer to head node
+ *
  * @index: int
+ *
  * Return: dlistint_t
  */
 

@@ -2,7 +2,9 @@
 
 /**
  * free_dlistint - Free list
+ *
  * @head: struct
+ *
  * Return: void
  */
 

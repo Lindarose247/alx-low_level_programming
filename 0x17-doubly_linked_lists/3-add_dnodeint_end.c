@@ -2,8 +2,11 @@
 
 /**
  * add_dnodeint_end - Adds a new node at the end
+ *
  * @head: struct
+ *
  * @n: const int
+ *
  * Return: dlistint_t
  */
 
